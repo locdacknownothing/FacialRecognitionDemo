@@ -1,2 +1,0 @@
-dataset/facedata/processed\Haaland\img.png 48 33 180 199
-dataset/facedata/processed\DeBruyne\image.png 51 32 191 219
