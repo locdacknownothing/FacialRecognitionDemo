@@ -1,0 +1,10 @@
+dataset/facedata/processed\JG\img_004.png 99 14 184 118
+dataset/facedata/processed\JG\img_005.png 85 3 170 106
+dataset/facedata/processed\JG\img_002.png 68 24 162 140
+dataset/facedata/processed\JG\img_010.png 84 11 187 141
+dataset/facedata/processed\JG\img_003.png 115 16 208 132
+dataset/facedata/processed\JG\img_007.png 39 33 192 225
+dataset/facedata/processed\JG\img_008.png 32 36 125 145
+dataset/facedata/processed\JG\img_001.png 86 25 165 121
+dataset/facedata/processed\JG\img_009.png 62 0 188 173
+dataset/facedata/processed\JG\img_006.png 74 6 155 104
