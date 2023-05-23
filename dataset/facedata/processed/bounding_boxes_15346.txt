@@ -1,0 +1,10 @@
+dataset/facedata/processed\LM\img_003.png 82 10 181 129
+dataset/facedata/processed\LM\img_001.png 61 47 177 196
+dataset/facedata/processed\LM\img_010.png 121 13 183 89
+dataset/facedata/processed\LM\img_007.png 134 23 247 165
+dataset/facedata/processed\LM\img_002.png 71 6 208 183
+dataset/facedata/processed\LM\img_005.png 825 211 1341 951
+dataset/facedata/processed\LM\img_009.png 79 17 159 118
+dataset/facedata/processed\LM\img_006.png 185 32 326 213
+dataset/facedata/processed\LM\img_004.png 137 22 217 123
+dataset/facedata/processed\LM\img_008.png 96 35 190 156

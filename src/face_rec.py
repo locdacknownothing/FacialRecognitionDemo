@@ -28,9 +28,9 @@ def main():
     THRESHOLD = [0.6, 0.7, 0.7]
     FACTOR = 0.709
     INPUT_IMAGE_SIZE = 160
-    CLASSIFIER_PATH = 'Models/facemodel.pkl'
+    CLASSIFIER_PATH = 'models/facemodel.pkl'
     VIDEO_PATH = args.path
-    FACENET_MODEL_PATH = 'Models/20180402-114759.pb'
+    FACENET_MODEL_PATH = 'models/20180402-114759.pb'
 
     # Load model da train de nhan dien khuon mat - thuc chat la classifier
     with open(CLASSIFIER_PATH, 'rb') as file:
@@ -115,14 +115,14 @@ def main():
                             text_x = bb[i][0]
                             text_y = bb[i][3] + 20
 
-                            # If recognization rate > 0.5 then accept
-                            if best_class_probabilities > 0.5:
-                                name = class_names[best_class_indices[0]]
-                            else:
-                                name = "Unknown"
+                            # If recognization rate > 0.6 then accept
+                            # if best_class_probabilities > 0.6:
+                            #     name = class_names[best_class_indices[0]]
+                            # else:
+                            #     name = "Unknown"
 
                             # Viet text len tren frame
-                            cv2.putText(frame, name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+                            cv2.putText(frame, best_name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                                         1, (255, 255, 255), thickness=1, lineType=2)
                             cv2.putText(frame, str(round(best_class_probabilities[0], 3)), (text_x, text_y + 17),
                                         cv2.FONT_HERSHEY_COMPLEX_SMALL,
