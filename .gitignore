@@ -1,7 +1,7 @@
-# models/model-20180402-114759.ckpt-275.data-00000-of-00001
-# models/model-20180402-114759.ckpt-275.index
-# models/model-20180402-114759.meta
+# models
 
 *.data-00000-of-00001
 *.index
 *.meta
+.venv
+**/__pycache__/
